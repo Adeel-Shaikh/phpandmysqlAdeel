@@ -20,7 +20,7 @@ if ($name and $to and $body)
 {
 $subj="Thank you for feedback";
 $subject2="feedback from ".$name;
-$header="From: robinsajan4@gmail.com";
+$header="From: adeelshaikh871@gmail.com";
 
 mail($to, $subj, $body1,$header);
 mail($admin,$subjec2,$body,$header);
