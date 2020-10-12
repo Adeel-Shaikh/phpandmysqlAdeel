@@ -14,7 +14,7 @@ if(isset($_POST['sub']))
 	$email=$_POST['email'];
 	$subject="MARKS";
 	$body="subject 1  ::".$_SESSION['sub1']." subject 2  ::".$_SESSION['sub2']." subject 3  ::".$_SESSION['sub3'];
-	$header="From: robinsajan4@gmail.com";
+	$header="From: adeelshaikh871@gmail.com";
 	if($email)
 	{
 		mail($email,$subject,$body,$header);
