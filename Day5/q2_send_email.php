@@ -13,7 +13,7 @@ if(isset($_POST["submit"]))
 {
 $name=$_POST['name'];
 $to=$_POST['e_mail'];
-$admin="robinsajan@gmail.com";
+$admin="adeelshaikh871@gmail.com";
 $body=$_POST['feedback'];
 $body1="thank you for the feedback";
 if ($name and $to and $body)
